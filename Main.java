@@ -20,9 +20,10 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         int choice;
-        boolean runL = true;
+       
         
         while (true) {
+            boolean runL = true;
             // pour verifier si l'utilisateur a bien saisi un nombre
             while (runL) {
             System.out.println("1. Voir ma balance");
